@@ -1558,7 +1558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 87.63 0)
 			(effects
 				(font
@@ -1585,7 +1585,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C129303"
 			(at 102.87 83.82 0)
 			(effects
 				(font
@@ -2364,7 +2364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 85.09 0)
 			(effects
 				(font
@@ -2391,7 +2391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C129303"
 			(at 46.99 81.28 0)
 			(effects
 				(font
@@ -2522,7 +2522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.4748 78.74 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76939"
+		(property "LCSC" "C1525"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -2981,6 +2981,15 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8"
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C841384"
 			(at 71.12 82.55 0)
 			(effects
 				(font

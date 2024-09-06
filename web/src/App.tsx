@@ -151,7 +151,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{ marginLeft: 20 }}>
       <h1>Step-down Converter</h1>
       <div>
         <label htmlFor="device">Device: </label>
@@ -189,7 +189,7 @@ function App() {
         <h2>Solution:</h2>
         <p>R1: {r1 * 1e-3}k</p>
         <p>R2: {r2 * 1e-3}k</p>
-        <p>Achieved Voltage: {achievedVoltage}V</p>
+        <p>Achieved Voltage: {achievedVoltage.toFixed(3)}V</p>
       </div>
       <button onClick={copyToClipboard}>Copy Design to Clipboard</button>
     </div>
